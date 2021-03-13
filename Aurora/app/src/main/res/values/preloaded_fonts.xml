@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/aldrich</item>
+        <item>@font/amita</item>
+        <item>@font/aref_ruqaa_bold</item>
+        <item>@font/arizonia</item>
+        <item>@font/atomic_age</item>
+        <item>@font/autour_one</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/clicker_script</item>
+        <item>@font/comfortaa_bold</item>
+        <item>@font/comfortaa_light</item>
+        <item>@font/exo_bold</item>
+    </array>
+</resources>

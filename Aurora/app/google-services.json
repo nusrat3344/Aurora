@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829526627356",
+    "firebase_url": "https://aurora-87fa6-default-rtdb.firebaseio.com",
+    "project_id": "aurora-87fa6",
+    "storage_bucket": "aurora-87fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829526627356:android:f8d61ed873902fb9d8fbd9",
+        "android_client_info": {
+          "package_name": "com.example.aurora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829526627356-b2fe741ugou4uradr2avbc6v7k0grb9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aurora",
+            "certificate_hash": "dc79ff667115d414108e2728aa640707cc7661ee"
+          }
+        },
+        {
+          "client_id": "829526627356-5jvfc373oabbtg57spb3kqoooip9bghd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwBqyoZy05rnAnHajlTi69JeZ9m-A7l4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829526627356-5jvfc373oabbtg57spb3kqoooip9bghd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

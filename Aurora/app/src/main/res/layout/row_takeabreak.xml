@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="22dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        &lt;!&ndash;so layout is set&ndash;&gt;-->
+    <!--    </RelativeLayout>-->
+
+
+    <ImageView
+        android:id="@+id/image_contacts"
+        android:layout_width="125dp"
+        android:layout_height="107dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="262dp"
+        android:layout_height="107dp"
+        android:orientation="vertical">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView1"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:layout_marginTop="200dp"-->
+        <!--            android:fontFamily="@font/aguafina_script"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="@string/textview"-->
+        <!--            android:textAllCaps="true"-->
+        <!--            android:textColor="#000000"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold|italic"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.218"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintVertical_bias="1.0" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textView2"-->
+        <!--            android:layout_width="229dp"-->
+        <!--            android:layout_height="46dp"-->
+        <!--            android:layout_gravity="center_horizontal"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="@string/textview"-->
+        <!--            android:textSize="14sp"-->
+        <!--            android:textStyle="italic"-->
+        <!--            app:layout_constraintBottom_toBottomOf="@+id/image"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="bottom"
+            android:paddingLeft="10dp"
+            android:text="@string/textview"
+            android:textColor="#020A39"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:paddingLeft="10dp"
+            android:text="@string/textview"
+            android:textColor="#D81C1C1C"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="vertical"-->
+<!--android:padding="16dp"-->
+<!--    >-->
+
+<!--&lt;!&ndash;    <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="vertical">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        &lt;!&ndash;so layout is set&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </RelativeLayout>&ndash;&gt;-->
+
+
+<!--<ImageView-->
+<!--    android:id="@+id/image"-->
+<!--    android:layout_width="360dp"-->
+<!--    android:layout_height="271dp"-->
+<!--    android:src="@mipmap/ic_launcher" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView1"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="TextView"-->
+<!--    android:textAllCaps="true"-->
+<!--    android:textColor="#000000"-->
+<!--    android:textSize="18sp"-->
+<!--    android:textStyle="bold|italic"-->
+<!--    android:gravity="center"-->
+<!--    android:layout_gravity="center_horizontal"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textView2"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="TextView"-->
+<!--    android:textSize="14sp"-->
+<!--    android:textStyle="italic"-->
+<!--    android:gravity="center"-->
+<!--    android:layout_gravity="center_horizontal"-->
+<!--    />-->
+
+
+<!--</LinearLayout>-->

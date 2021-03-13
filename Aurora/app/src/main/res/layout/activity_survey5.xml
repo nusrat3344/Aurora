@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/survey_back"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Survey5"
+    >
+
+
+    <TextView
+        android:id="@+id/titleText5"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:background="@drawable/rectangle_button"
+        android:gravity="center"
+        android:text="@string/question1"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/questiontext5"
+
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#95FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/aref_ruqaa_bold"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:minLines="1"
+        android:maxLines="10"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="#05083E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/titleText5"
+        app:layout_constraintStart_toStartOf="@+id/titleText5"
+        app:layout_constraintTop_toBottomOf="@+id/titleText5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="335dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/questiontext5"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="@+id/questiontext5"
+        app:layout_constraintTop_toBottomOf="@+id/questiontext5"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/radio_Always"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="@string/always"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_often"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="@string/often"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_not_much"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="@string/not_much"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_never"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="@string/never"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next5"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/round_button"
+        android:drawableRight="@drawable/ic_next"
+        android:text="@string/next"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/score5"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="@+id/next5"
+        app:layout_constraintEnd_toStartOf="@+id/next5"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    tools:context=".Survey1">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_survey_result"
+        android:layout_width="409dp"
+        android:layout_height="270dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/survey_an"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/titleText_result"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_below="@id/image_survey_result"
+        android:layout_marginTop="204dp"
+        android:background="#ABFFFFFF"
+        android:gravity="center|start"
+        android:paddingLeft="50dp"
+        android:text="@string/survey"
+        android:textColor="#131313"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/another_imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/resultshow"
+        android:layout_width="162dp"
+        android:layout_height="164dp"
+        android:background="@drawable/result_button"
+        android:clickable="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="textPersonName"
+        android:text="@string/score"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_survey_result"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/result_consultation"
+        android:layout_width="164dp"
+        android:layout_height="73dp"
+        android:background="@drawable/round_button"
+        android:drawableRight="@drawable/ic_phone"
+        android:gravity="center|center_horizontal"
+        android:text="Consultataion"
+        android:textColor="#C9FBAA"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/resultshow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/resultshow"
+        app:layout_constraintTop_toTopOf="@+id/resultshow"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/result_happy"
+        android:layout_width="164dp"
+        android:layout_height="73dp"
+
+        android:background="@drawable/yellow_button"
+        android:drawableRight="@drawable/ic_baseline_tag_faces_24"
+        android:text="@string/happy"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/resultshow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toEndOf="@+id/resultshow"
+        app:layout_constraintTop_toTopOf="@+id/resultshow"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:background="@drawable/yellow_button"
+        android:drawableRight="@drawable/ic_bar_chart"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="View graph"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultshow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
